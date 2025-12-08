@@ -64,12 +64,19 @@ h2, h3, h4, h5, h6 {
        color: black;
        transition: color 0.3s ease;
        font-family: "Rethink Sans", sans serif;
+    background-image: linear-gradient(to right, #6F3826, #964F4C);
+        background-size: 0% 4rem;
+        background-repeat: no-repeat;
+        background-position: left ;
+        transition: background-size 0.3s ease-out;
+        padding: 1rem 0.5rem 1rem 0.5rem;
    }
 
 .site-title:hover {
-       color:#65312E;
-       cursor: pointer;
-       text-decoration: 0.5rem #65312E underline;
+        color: #fff;
+        cursor: pointer;
+        background-size: 100% 4rem;
+        padding: 1rem 0.5rem 1rem 0.5rem;
    }
 
 .site-intro {
@@ -122,4 +129,5 @@ h2, h3, h4, h5, h6 {
     --bs-btn-disabled-border-color: #fff;
 
 }
+
 
