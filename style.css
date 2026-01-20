@@ -24,7 +24,7 @@ body {
 }
 
 .lead a:hover {
-        background-color: #EEEBDD;
+        background-color: #fff5c8;
         transition: background-color 0.5s ease;
     }
 
@@ -137,6 +137,7 @@ h2, h3, h4, h5, h6 {
     --bs-btn-disabled-border-color: #fff;
 
 }
+
 
 
 
